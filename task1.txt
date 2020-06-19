@@ -1,0 +1,27 @@
+для сайту https://www.worldsciencefestival.com/
+
+
+1. Час завантаження сайту Load: 3.93 s
+
+2. Error  виписані елементи які не підвантажуються, які потребують уваги
+
+Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged.
+
+Uncaught (in promise) TypeError: Failed to execute 'exitFullscreen' on 'Document': Document not active
+    at j (eval at <anonymous> (jquery.js?ver=1.12.4:2), <anonymous>:7:18326)
+    at HTMLVideoElement.eval (eval at <anonymous> (jquery.js?ver=1.12.4:2), <anonymous>:7:22771)
+
+
+
+3. Проаналізувати скільки памяті займає сайт (максимум сайт має завантажувати 10мб  ) (5мб - норм)
+
+ 4,2 mb
+
+
+
+4. Проаналізувати Performance, які файли найдовше завантажуються, які заповільняють систему
+Major GC, Function Call
+
+5. SEO accessibility аудит (як читається роботами пошуковиками, що потрібно поправити щоб показники були ближчими до 90%)
+SEO становить 85%, для покращення додати meta description, додати [alt] attributes
+
